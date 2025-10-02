@@ -6,7 +6,7 @@ import './../styles/App.css';
 const App = () => {
   const [forms,setForms]=useState(
     [{name:'',age:""}]);
-
+    
    const handleChange=(index,event)=>{
     const newForms=[...forms];
     newForms[index][event.target.name]=event.target.value;
