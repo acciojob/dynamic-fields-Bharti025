@@ -23,11 +23,7 @@ const App = () => {
    }
 
    const submitForm=()=>{
-     const cleanedData = forms.map(form => ({
-    ...form,
-    age: Number(form.age) // convert age to a number here
-  }));
-  console.log(cleanedData);
+     console.log(forms);
    }
 
   return (
