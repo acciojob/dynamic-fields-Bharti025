@@ -42,7 +42,7 @@ const App = () => {
       );
 
     })}
-      <button onClick={addForm}>Add more..</button>
+      <button onClick={addForm}>Add More..</button>
         <button onClick={submitForm}>Submit</button>
    </div>
     
